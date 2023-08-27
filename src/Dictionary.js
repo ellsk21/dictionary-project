@@ -6,6 +6,7 @@ import Results from "./Results"
 export default function Dictionary() {
    let [keyword, setKeyword] = useState("");
    let [results, setResults] = useState(null);
+
    function handleResponse(response) {
     setResults(response.data);
     
@@ -15,9 +16,10 @@ export default function Dictionary() {
         event.preventDefault();
  
 
-    let apiKey = "65394c1aaf70b9a62t37c04bob3209ea"
-   let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`
-  
+   
+   
+ let apiKey = "65394c1aaf70b9a62t37c04bob3209ea"
+ let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`
    axios.get(apiUrl).then(handleResponse);
     }
 
