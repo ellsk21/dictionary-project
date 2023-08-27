@@ -14,7 +14,7 @@ function App() {
       </header>
       </div>
       <footer>
-        Coded by Ellie Korth 
+        This is open-source coded on <a href="https://github.com/ellsk21/dictionary-project" target="_blank" rel="noreferrer">GitHub </a> by Ellie Korth
       </footer>
     </div>
   );
