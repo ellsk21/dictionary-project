@@ -1,3 +1,13 @@
 Footer 
 { text-align: center;
 margin:10px; }
+
+body {
+  background-color: rgb(233, 239, 174)
+}
+ h1
+ {
+  text-align: center;
+  margin: 20px 20px;
+ letter-spacing: 5px;
+ }

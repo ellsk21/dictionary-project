@@ -1,3 +1,24 @@
-.Dictionary {
-    
+.Dictionary section {
+    background-color: rgb(200, 192, 248);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0 0 0 / 10%);
+    margin: 20px 0;
+}
+.Dictionary input {
+    width: 100%;
+    padding: 4px 4px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+
+}
+.Dictionary .hint
+{font-size: 11px;
+margin-top: 5px;
+}
+.Dictionary .search 
+{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
 }
